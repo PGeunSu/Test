@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko" class="state">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1050">
+    <title>Maison Mined</title>
+    <!-- 페이지스타일 -->
+    <link rel="stylesheet" type="text/css"
+        href="https://maison-mined.com/ind-script/optimizer.php?filename=tdXBbsMgDADQe7LrvsNSD_sfcJzEq8EoQLf-fb1slXrYpa17xJgnsADDqomAcOyVtgqJM01QehTGcW1JoE40TlR5yVCPnD8OgNXydOpCkChF2uBTOb9Z-B3u19bzNbC7O-hjCUeYu0gJC_mJ1bKPj3ISztobxFAZdxE1Jc1u3G_AjZs1-2JD-KJqlBsae2uO9SMcbEBDZ3eyqUrj4u6uJP5o2ex9Y_N3w8I5NPKvboju5ovuVtTvVxxf_ItqaejzcT73zd00nL-9ouaTrWbNBd2PbROPt6D_m-NoG555Sz_qBQ&type=css&k=4acec87dd853617f25b18e8e883e539b0e4e2d25&t=1656508855&user=T">
+</head>
+
+<body class="bk">
+    <div id="loading" style="display: none;"></div>
+    <div id="header">
+        <div class="nav">
+            <a class="menu_btn">
+                <span class="wt">
+                    <img src="/개인 프로젝트/img/menu_icon.png" class="menu_icon" alt="">
+                    &nbsp;<img src="/개인 프로젝트/img/close_btn.png" class="close_btn" alt="">&nbsp;</span>
+                <span class="bk">
+                    <img src="/개인 프로젝트/img/menu_icon_bk.png" class="menu_icon" alt="">
+                    &nbsp;<img src="/개인 프로젝트/img/close_btn_bk.png" class="close_btn" alt="">
+                    &nbsp;</span></a>
+            <li class="sub">
+                <div class="nav_menu" style="display: block;">
+                    <ul class="depth01">
+                        <li>
+                            <a href="">BEST</a>
+                        </li>
+                        <li class="sub">
+                            <a href="javascript:;">SHOP</a>
+                            <ul class="depth02">
+                                <li><a href=>All</a></li>
+                                <li><a href="">Outer</a></li>
+                                <li><a href="">Top</a></li>
+                                <li><a href="">Bottom</a></li>
+                                <li><a href="">Acc</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+            <li>
+                <a href="">COLLECTION</a>
+            </li>
+            <li>
+                <a href="/개인 프로젝트/nav/about.html">ABOUT</a>
+            </li>
+            <li class="last">
+                <a href="/개인 프로젝트/nav/offlineStore.html">OFFLINE STORE</a>
+            </li>
+            </li>
+        </div>
+        <a href="main.html" class="top_logo">
+            <img src="/개인 프로젝트/img/logo.png" class="wt"> &nbsp;
+            <img src="/개인 프로젝트/img/logo_bk.png" class="bk">
+            &nbsp;</a>
+        <div class="header_right">
+            <a href="login.html" class="xans-element- xans-layout xans-layout-statelogoff ">LOGIN</a>
+            <a href="join.html" class="xans-element- xans-layout xans-layout-statelogoff ">JOIN</a>
+            <a href="mypage.html">MY PAGE</a>
+            <a href="cart.html" class="xans-element- xans-layout xans-layout-statelogoff">CART </a>
+        </div>
+    </div>
+    <div id="contents">
+        <div class="titleArea">
+            <h2>JOIN</h2>
+        </div>
+        <form id="joinform" style="width: 70%;  margin: 0 auto;  max-width: 768px;" }>
+            <div class="xans-element- xans-member xans-member-join">
+
+                <div class="ec-base-table typeWrite">
+                    <tbody>
+                        <h3 class=" ">기본정보</h3>
+                        <div class="ec-base-table typeWrite">
+                            <table border="1" summary="">
+                                <colgroup>
+                                    <col style="width:150px;">
+                                    <col style="width:auto;">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">아이디 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif">
+                                        </th>
+                                        <td><input id="member_id" name="member_id" class="inputTypeText" value=""
+                                                type="text"> <span id="idMsg">(영문소문자/숫자, 4~16자)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">비밀번호 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"></th>
+                                        <td><input id="passwd" name="passwd" maxlength="16" value="" type="password">
+                                            <span id="pwMsg">(영문 대소문자/숫자 4자~16자)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">비밀번호 확인 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                alt="필수">
+                                        </th>
+                                        <td><input id="user_passwd_confirm" name="user_passwd_confirm" maxlength="16"
+                                                value="" type="password"> <span id="pwConfirmMsg"></span> </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row" id="nameTitle">이름 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                alt="필수">
+                                        </th>
+                                        <td>
+                                            <span id="nameContents"><input type="text" name="name" id="name"
+                                                    maxlength="20"></span>
+                                            <span id="under14Msg" class="displaynone">14세 미만 사용자는 법정대리인 동의가
+                                                필요합니다.</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row">주소 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                class="" alt="필수"></th>
+                                        <td>
+                                            <input id="addr1" name="addr1" class="inputTypeText" placeholder="" value=""
+                                                type="text"> 기본주소<br>
+                                            <input id="addr2" name="addr2" class="inputTypeText" value="" type="text">
+                                            나머지주소 (선택입력가능)
+                                        </td>
+                                    </tr>
+
+                                    <tr class="">
+                                        <th scope="row">휴대전화 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                class="" alt="필수"></th>
+                                        <td><select id="mobile1" name="mobile[]">
+                                                <option value="010">010</option>
+                                                <option value="011">011</option>
+                                                <option value="016">016</option>
+                                                <option value="017">017</option>
+                                                <option value="018">018</option>
+                                                <option value="019">019</option>
+                                            </select>-<input id="mobile2" name="mobile[]" maxlength="4" value=""
+                                                type="text">-<input id="mobile3" name="mobile[]" maxlength="4" value=""
+                                                type="text"></td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row">SMS 수신여부 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                alt="필수">
+                                        </th>
+                                        <td><input id="is_sms0" name="is_sms" class="ec-base-chk" value="T"
+                                                type="checkbox">
+                                            <label>동의함</label>
+                                            <p>쇼핑몰에서 제공하는 유익한 이벤트 소식을 SMS로 받으실 수 있습니다.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">이메일 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                alt="필수">
+                                        </th>
+                                        <td><input id="email1" name="email1" value="" type="text">
+                                            <span id="emailMsg"></span>
+                                        </td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row">이메일 수신여부 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                alt="필수">
+                                        </th>
+                                        <td><input id="is_news_mail0" name="is_news_mail" class="ec-base-chk"
+                                                type="checkbox">
+                                            <label>동의함</label>
+                                            <p>쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3 class=" ">추가정보</h3>
+                        <div class="ec-base-table typeWrite ">
+                            <table border="1" summary="">
+                                <caption>회원 추가정보</caption>
+                                <colgroup>
+                                    <col style="width:150px;">
+                                    <col style="width:auto;">
+                                </colgroup>
+                                <tbody>
+                                    <tr class="">
+                                        <th scope="row">성별 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                class="displaynone" alt="필수"></th>
+                                        <td><input id="is_sex0" name="is_sex" type="radio"><label>남자</label>
+                                            <input id="is_sex1" name="is_sex" type="radio"><label>여자</label>
+                                        </td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row">생년월일 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                class="displaynone" alt="필수"></th>
+                                        <td><input id="birth_year" name="birth_year" maxlength="4" type="text"> 년
+                                            <input id="birth_month" name="birth_month" class="inputTypeText"
+                                                maxlength="2" type="text"> 월
+                                            <input id="birth_day" name="birth_day" class="inputTypeText" maxlength="2"
+                                                type="text"> 일
+                                        </td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row">지역 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                class="displaynone" alt="필수"></th>
+                                        <td><select id="region" name="region">
+                                                <option value="" selected="selected">선택</option>
+                                                <option value="region_01">경기</option>
+                                                <option value="region_02">서울</option>
+                                                <option value="region_03">인천</option>
+                                                <option value="region_04">강원</option>
+                                                <option value="region_05">충남</option>
+                                                <option value="region_06">충북</option>
+                                                <option value="region_07">대전</option>
+                                                <option value="region_08">경북</option>
+                                                <option value="region_09">경남</option>
+                                                <option value="region_10">대구</option>
+                                                <option value="region_11">부산</option>
+                                                <option value="region_12">울산</option>
+                                                <option value="region_13">전북</option>
+                                                <option value="region_14">전남</option>
+                                                <option value="region_15">광주</option>
+                                                <option value="region_16">제주</option>
+                                                <option value="region_17">해외</option>
+                                            </select></td>
+                                    </tr>
+                                    <tr class="">
+                                        <th scope="row">환불계좌 정보 <img
+                                                src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif"
+                                                class="displaynone" alt="필수"></th>
+                                        <td>
+                                            <dl class="ec-base-desc typeBullet">
+                                                <dt>예금주</dt>
+                                                <dd><input id="bank_account_owner" name="bank_account_owner"
+                                                        class="inputTypeText" type="text"></dd>
+                                                <dt>은행명</dt>
+                                                <dd><select id="refund_bank_code" name="refund_bank_code">
+                                                        <option value="" selected="selected">- 은행선택 -</option>
+                                                        <option value="bank_01">농협은행</option>
+                                                        <option value="bank_02">신한은행</option>
+                                                        <option value="bank_03">국민은행</option>
+                                                        <option value="bank_04">하나은행</option>
+                                                        <option value="bank_05">우리은행</option>
+
+                                                    </select></dd>
+                                                <dt>계좌번호</dt>
+                                                <dd><input id="bank_account_no" name="bank_account_no"
+                                                        class="inputTypeText">
+                                                    ('-'와 숫자만 입력해주세요.)</dd>
+                                            </dl>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                </div>
+                <div class="ec-base-button">
+                    <a href="" onclick="check()"><span class="bk_button">회원가입</span></a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <style>
+        #footer {
+            text-align: center;
+            padding: 50px 0 50px 0;
+        }
+
+        .footer_wrap .clearfix li a.white,
+        .footer_wrap .clearfix li p.white {
+            color: #fff !important;
+        }
+
+        #footer .menu a {
+            padding: 15px;
+        }
+    </style>
+    <div id="footer">
+        <a href="javascript:;" class="footer_btn"><img src="/개인 프로젝트/img/arrowdown_B.png" alt=""></a>
+        <div class="footer_wrap" style="display: block;">
+            <div class="top">
+                <ul class="clearfix">
+                    <li class="company"><a href="">(주)베이스먼트랩</a></li>
+                    <li class="info">
+                        <p><a href="http://maison-mined.com/member/agreement.html">이용약관</a>
+                        </p>
+                        <p><a href="http://maison-mined.com/member/privacy.html">개인정보처리방침</a></p>
+                        <p><a href="http://maison-mined.com/board/urgency/urgency.html">사이트
+                                이용안내</a></p>
+                    </li>
+                    <li class="about">
+                        <ul class="clearfix">
+                            <li>
+                                <p><a href="">About MAISON MINDE</a></p>
+                                <p><a
+                                        href="https://map.naver.com/v5/entry/place/1325635908?c=14142131.5484483,4515621.7112513,13,0,0,0,dh&amp;placePath=%2Fhome%3Fentry=plt">매장찾기</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p><a href="/board/free/list.html?board_no=1">Notice</a></p>
+                                <p><a href="/board/free/list.html?board_no=1">고객문의</a></p>
+                            </li>
+                            <li>
+                                <p><a href="https://cafe.naver.com/mm2c">Naver cafe</a></p>
+                                <p><a href="https://www.instagram.com/maisonmined/">Instagram</a></p>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li></li>
+                    <li class="time">
+                        <p>Operating time : Mon ~ Fri 09:30 - 18:30 <br>
+                            (Iunch 12:30 - 13:30)<br>
+                            Off-time: Weekend, Hoilday
+                        </p>
+                    </li>
+                    <li>
+                        <p>주식회사 베이스먼트랩 대표이사 : 윤영빈 / 서울특별시 성동구 서울숲2길 20-1 (주) 베이스먼트랩 / 사업자등록번호 :
+                            463-81-01024 [사업자정보 확인] /<br>
+                            통신판매업신고 : 2019-서울성동-01613 / 홈페이지 문의 : official@maison-mined.com / 고객센터 : 02-2212-0385<br>
+                        </p>
+
+                    </li>
+
+                </ul>
+                </d iv>
+            </div>
+        </div>
+    </div>
+    <link itemprop="url" href="https://maison-mined.com">
+    </span>
+    <div id="loading" style="display: none;"></div>
+
+    <script src="/개인 프로젝트/js/joincheck.js"></script>c
+    <!-- <script type="text/javascript" src="https://login2.cafe24ssl.com/crypt/AuthSSLManager.js"></script>
+    <script type="text/javascript" src="https://login2.cafe24ssl.com/crypt/AuthSSLManager.plugin.js"></script> -->
+</body>
+
+</html>

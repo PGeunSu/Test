@@ -1,0 +1,318 @@
+element.style {
+    display: none;
+  }
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* 로딩창 */
+  #loading {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+    z-index: 9999;
+    background-image: url(/hy_design/images/common/loding_img.gif);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+        z-index: 3;
+    }
+  #header .nav {
+    padding: 30px 0 0 3%;
+    float: left;
+  }
+  #header div {
+    position: relative;
+    z-index: 2;
+  }
+  #header .nav a {
+    display: inline-block;
+    padding-right: 15px;
+    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  img,
+  fieldset {
+    border: none;
+    vertical-align: top;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  #header .top_logo {
+    position: absolute;
+    top: -20px;
+    padding-top: 30px;
+    left: 50%;
+    text-align: center;
+    z-index: 0;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translateX(-50%);
+  }
+  #header .top_logo img {
+    width: 600px;
+  }
+  
+  img,
+  fieldset {
+    border: none;
+    vertical-align: top;
+  }
+  body .bk {
+    display: none !important;
+  }
+  #header .header_right {
+    padding: 30px 3%;
+    float: right;
+  }
+  #header .header_right a {
+    padding-left: 15px;
+    font-size: 15px;
+    color: #fff;
+  }
+  html, body {
+    font-family: 'Spoqa Han Sans','Spoqa Han Sans JP','Sans-serif';
+    letter-spacing: -0.3px;
+    min-width: inherit !important;
+
+
+/* 흰 배경에 검은 스타일 적용 */
+}
+body.bk #header .bk {
+    display: inline-block !important;
+}
+#header .bk {
+    display: inline-block !important;
+}
+body.bk #header a {
+    color: #000;
+}
+body.bk #header .wt {
+    display: none !important;
+}
+
+#contents {
+    padding-top: 80px !important;
+}
+
+#contents {
+    padding-top: 0;
+    width: 100%;
+}
+
+ /*LOGIN*/
+ #login_wrap_outer {
+    width: 100%;
+    position: relative;
+}
+
+#login_wrap {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+}
+
+.login {
+    clear: both;
+}
+
+.login ul {
+    margin-bottom: 50px;
+}
+
+.login li {
+    clear: both;
+    width: 100%;
+    line-height: 20px;
+}
+
+.login h2 {
+    font-weight: normal;
+    margin: 100px auto;
+    font-size: 25px;
+}
+
+
+.login input {
+    width: 100%;
+}
+
+.login .nonmember {
+    padding: 50px 0 50px 0;
+    font-size: 12px;
+}
+
+.login .nonmember li {
+    padding-bottom: 20px;
+}
+
+.login .forgot a {
+    clear: both;
+    padding: 0 10px 0 10px;
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.login .title {
+    padding-top: 10px;
+}
+
+.login .button a {
+    width: 100%;
+}
+
+.login .button input {
+    width: 70px;
+    display: block;
+    margin: 20px auto;
+}
+
+.login .no input {
+    width: 48%;
+    float: left;
+}
+
+.login .no input+input {
+    float: right;
+}
+form{
+    display: block      ;
+}
+.member-login.login .id, .member-login.login .password {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    overflow: hidden;
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 2px;
+    color: #8F8F91; 
+    position: relative;
+}
+.member-login.login ul {
+    margin: 0 0 3px 0;
+    padding: 30px 0;
+    color: #2e2e2e;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+.pht {
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000 !important;
+    line-height: 20px;
+}
+.pht2 {
+    position: absolute;
+    left: 0px;
+    top: 14px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000 !important;
+}
+.member-login.login input {
+    border: none !important;
+    outline: none;
+    line-height: 50px;
+    height: 50px !important;
+    padding-left: 100px !important;
+}
+.bk_button {
+    display: block;
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    background: #000;
+    text-align: center;
+    margin: 10px auto;
+}
+.bhs_button {
+    width: 170px;
+    height: 38px;
+    font-size: 17px;
+    line-height: 38px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+}
+/*LOGIN*/
+
+#footer {
+    text-align: center;
+    padding: 50px 0 50px 0;
+  }
+  #footer .footer_btn {
+    display: block;
+    padding-bottom: 30px;
+  }
+  #footer .footer_wrap {
+    padding: 30px 3%;
+    display: none;
+  }
+  #footer .footer_wrap div ul li {
+    display: block;
+    float: left;
+    height: 110px;
+    text-align: left;
+    font-size: 13px;
+  }
+  #footer .footer_wrap div > ul li.company {
+    font-size: 18px;
+  }
+  #footer .footer_wrap div > ul li:nth-child(1) {
+    width: 200px;
+  }
+  #footer .footer_wrap div > ul li:nth-child(2) {
+    width: 131px;
+  }
+  .time{
+    margin-right: 5%;
+  }
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #footer .footer_wrap div > ul li p {
+    line-height: 2;
+  }
+  .footer_wrap .clearfix li a.white,
+  .footer_wrap .clearfix li p.white {
+    color: #fff !important;
+  }
