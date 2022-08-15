@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>collection3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/개인 프로젝트/css/collection.css">
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class=" swiper-wrapper">
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/01.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/02.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/03.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/04.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/05.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/06.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/07.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/08.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/09.jpg"></div>
+      <div class="swiper-slide"><img src="/개인 프로젝트/img/collection/3/10.jpg"></div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script src="/개인 프로젝트/js/collection.json"></script>
+</body>
+
+</html>

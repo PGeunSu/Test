@@ -1,0 +1,23 @@
+.main {
+  position: absolute;
+  width: 450px;
+  margin: -150px 0px 0px -200px;
+  top: 40%;
+  left: 50%;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+input {
+  position: absolute;
+  left: 200px;
+}
+
+label {
+  margin: 30px;
+}
+
+button {
+  float: right;
+  margin-right: 20px;
+}

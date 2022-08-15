@@ -1,0 +1,324 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit);
+  grid-gap: 20px;
+  background-color: #eee;
+}
+header {
+  display: block;
+  background: #353535;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  z-index: 10;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header ul li {
+  margin: 0.5rem 2.5rem;
+  color: white;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(219, 216, 218, 0.562);
+  margin-top: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#macbook {
+  background-image: url(/클론코딩/images/hero_macbookair__el7scava26mq_largetall.png);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+}
+#mblogo {
+  text-align: center;
+  position: absolute;
+  bottom: 250px;
+  left: 550px;
+}
+#mblogo h1 {
+  font-size: 40px;
+}
+#mblogo p {
+  color: gray;
+  font-weight: bold;
+}
+#mblogo a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+#p13 {
+  background-image: url(/클론코딩/images/hero_iphone13_avail__gnqqkzuai6um_largetall.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+}
+#p13logo {
+  text-align: center;
+  position: absolute;
+  top: 60px;
+  left: 830px;
+}
+#p13logo h1 {
+  font-size: 50px;
+}
+#p13logo P {
+  font-size: 22px;
+  font-weight: bold;
+}
+#p13logo a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+#macpro {
+  background-image: url(/클론코딩/images/hero_mbp13__f88jcbca0ve6_small.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+}
+
+#mprologo {
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 720px;
+}
+#mprologo h1 {
+  font-size: 60px;
+  color: white;
+}
+
+#mprologo p {
+  color: gray;
+  font-weight: bold;
+}
+#mprologo a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+  grid-gap: 20px;
+  background-color: #eee;
+}
+.ip13pro {
+  width: 940px;
+  height: 700px;
+  background-size: 940px 700px;
+  background-repeat: no-repeat;
+  background-image: url(/클론코딩/images/promo_iphone13pro_avail__beadms4ldidu_small.jpg);
+  position: relative;
+}
+.watch {
+  width: 940px;
+  height: 700px;
+  background-size: 940px 700px;
+  background-repeat: no-repeat;
+  background-image: url(/클론코딩/images/promo_watch_lte__djeaso7ukrsm_large.jpg);
+  position: relative;
+}
+.padair {
+  width: 940px;
+  height: 700px;
+  background-size: 940px 700px;
+  background-repeat: no-repeat;
+  background-image: url(/클론코딩/images/promo_ipadair_avail__ferd4bfpcdm6_small.jpg);
+  position: relative;
+}
+.store {
+  width: 940px;
+  height: 700px;
+  background-size: 940px 700px;
+  background-repeat: no-repeat;
+  background-image: url(/클론코딩/images/apple_awards_promo__c6s3k6zxroae_small.jpg);
+  position: relative;
+}
+.display {
+  width: 940px;
+  height: 700px;
+  background-size: 940px 700px;
+  background-repeat: no-repeat;
+  background-image: url(/클론코딩/images/promo_studiodisplay_avail__d1cx9j73ooq6_small.jpg);
+  position: relative;
+}
+.aptv {
+  width: 940px;
+  height: 700px;
+  background-size: 940px 700px;
+  background-repeat: no-repeat;
+  background-image: url(/클론코딩/images/tile_freeshows__e35b5brgkmi6_xlarge.jpg);
+  position: relative;
+}
+#text1 {
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 340px;
+}
+.ip13pro h1 {
+  font-size: 40px;
+}
+.ip13pro p {
+  font-size: 22px;
+}
+.ip13pro a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+
+#text2 {
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 340px;
+}
+.watch p {
+  font-size: 17px;
+}
+.watch a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+#text3 {
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  left: 380px;
+}
+.padair p {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+.padair a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+#text4 {
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 320px;
+}
+.store p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.store a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+#text5 {
+  text-align: center;
+  position: absolute;
+  top: 160px;
+  left: 340px;
+}
+.display h1 {
+  font-size: 40px;
+}
+.display p {
+  font-size: 17px;
+}
+.display a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+#text6 {
+  text-align: center;
+  position: absolute;
+  bottom: 80px;
+  left: 320px;
+}
+.aptv p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.aptv a {
+  color: rgb(75, 75, 211);
+  font-weight: bold;
+}
+footer {
+  width: 1170px;
+  margin: 10px auto;
+}
+#ft0 {
+  display: block;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: gray;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+.box2 {
+  text-align: left;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  width: 220px;
+  line-height: 30px;
+}
+a:hover {
+  text-decoration: underline;
+}
+section a {
+  color: gray;
+}
+#resel {
+  display: block;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: gray;
+}
+.bottom ul li {
+  font-size: 12px;
+  line-height: 30px;
+  float: left;
+  color: gray;
+  display: inline-block;
+  color: gray;
+  margin-left: 20px;
+}
+#korea {
+  position: absolute;
+  right: 380px;
+}
+#saup {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  line-height: 30px;
+  font-weight: 400;
+  color: gray;
+}
