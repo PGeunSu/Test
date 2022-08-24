@@ -138,3 +138,162 @@ header{
     opacity: 1;
     transform: scale(1.5);
 }
+
+.txtBox{
+    height: 280;
+    width: 340px;
+    position: fixed;
+    top: 200px;
+    right: 70px;
+}
+.txt{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    font-size: 34px;
+    font-family: play;
+    color: #FFF;
+    letter-spacing: -2px; /*자간(글자간격)*/
+}
+.txt strong{
+    font: bold 34px arial;
+    color: #b9fb05;
+    margin-left: 20px;
+}
+.tit{
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 160px;
+    color: #b9fb05;
+    font-family: monoton;
+    letter-spacing: -1px;
+}
+.tit em{
+    font-family: play;
+    font-size: 50px;
+    color: #FFF;
+}
+/*컨텐츠 박스 스타일 */
+
+#side{
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    width: 800px;
+    height: 100%;
+    background-color: #111;
+    transform: skewX(-40deg);
+    opacity: 0.5;
+    right: -800px;
+    transition: all 0.6s;
+
+}
+#side:hover{
+    right: -500px;
+    opacity: 0.5;
+}
+#side .con{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    background-color: #000;
+    padding: 10px;
+    transition: all 1s;
+
+}
+#side:hover .con{
+    left:50px;
+}
+#side .con p{
+    width: 300px;
+    height: 100px;
+    left: 50px;
+    position: absolute;
+    bottom: 0;
+
+}
+#side .con p:nth-child(1){
+    bottom: 270px;
+    transform: translate(200px);
+    transition: all 0.4s;
+    
+}
+#side .con p:nth-child(2){
+    bottom: 160px;
+    transform: translate(200px);
+    transition: all 0.8s;
+
+}
+#side .con p:nth-child(3){
+    bottom: 50px;
+    transform: translate(200px);
+    transition: all 1.2s;
+}
+#side:hover .con p{
+    transform: translate(0px);
+}
+#side:hover .con p em{
+    display: inline-block;
+    transform: skewX(40deg);
+    color: #a0bd50;
+    font: bold 16px/1.7 arial;
+} 
+#side .con p img{
+    opacity: 0.3;
+}
+#side .con p img:hover{
+    opacity: 1;
+}
+
+/* 자동 롤링버튼(더블화살표 효과) */
+
+#side .btn{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    color: #b9fb05;
+    transform : skewX(40deg)
+    
+}
+
+#side .btn i{
+    font-size: 60px;
+    position: absolute;
+    right: 0;
+}
+.btn i:nth-child(1){
+    animation : ani linear 1.5s 0s infinite
+    /* linear : 1.5s를 걸쳐 속도를 일정하게 */
+}
+.btn i:nth-child(2){
+    animation : ani linear 1.5s 0.5s infinite
+ 
+}
+.btn i:nth-child(3){
+    animation : ani linear 1.5s 1s infinite
+  
+}
+
+@keyframes ani {
+    0%{
+        right: 0;
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        right: 100px;
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    
+}
+
+#side:hover .btn{
+    bottom : 700px;
+    transition: all 2s;
+}
