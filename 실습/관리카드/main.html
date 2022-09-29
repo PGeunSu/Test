@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리카드</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="mainbox">
+
+        <h2>RAKU 관리 카드</h2>
+
+        <table border="2">
+            <tr>
+                <td>이름 : <input type="text" size="10"></td>
+                <td>생년월일 : <input type="text" size="10"> (ex870916)</td>
+                <td>연락처 : <input type="text" size="15"></td>
+            </tr>
+            <tr>
+                <th>방문 경로</th>
+                <td colspan="2">
+                    <input type="radio" name="select"> 지인소개
+                    <input type="radio" name="select"> 인터넷 검색
+                    <input type="radio" name="select"> 명함,전단지
+                </td>
+            </tr>
+            <tr>
+                <th>검색어<br>(인터넥 검색 체크 시)</th>
+                <td colspan="2"><input type="text"> (예시 : 남성왁싱, 라부케어, 브라질리언 왁싱)</td>
+            </tr>
+            <tr id="btNone">
+
+                <td colspan="3"> ◈왁싱 경험이 있습니까? (
+                    <input type="radio" name="select2"> 예
+                    <input type="radio" name="select2"> 아니오
+                    )
+                </td>
+            </tr>
+            <tr id="btNone">
+                <td colspan="3" id="pd"> ◈피부질환 여부 <br>
+                    <input type="checkbox">혈액순환 장애 <input type="checkbox">당뇨병 <input type="checkbox">혈우병 <input
+                        type="checkbox">건선 <input type="checkbox">아토피 <input type="checkbox"> 포진<input type="checkbox">
+                    루푸스<input type="checkbox"> 습진/무좀 <input type="checkbox">지루성 피부염 <input type="checkbox">없음
+                    <input type="checkbox"> 기타 : <input type="text">
+                </td>
+            </tr>
+            <tr id="btNone">
+                <td colspan="3">◈ 복용중인 처방약이 있습니까? (
+                    <input type="radio" name="select"> 예
+                    <input type="radio" name="select"> 아니오
+                    )
+                </td>
+                </td>
+            </tr>
+
+            <tr id="btNone">
+                <td colspan="3">
+                    왁싱 시술 후 피부에 따라 붉어지거나 부어오르면 트러블이 올라올 수 있습니다. <br>
+                    보통 빠르면 1 ~ 2시간 후 오래가는 고객님들은 2 ~ 3일 후 가라앉으며 등, 배, 가슴, 왁싱은 <br>
+                    트러블이 올라오면 약 1주일 길게는 한 달정도 걸립니다. <br>
+                    왁싱 후 피부가 예민해진 상태이니 24시간동안은 비위생적인 환경에 노출을 피해주세요.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table border="2" align="center">
+                        <tr>
+                            <th>페이스</th>
+                            <th>바디</th>
+                            <th>퓨빅</th>
+                            <th>라꾸케어</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox">헤어라인 <br>
+                                <input type="checkbox">이마<br>
+                                <input type="checkbox">구렛나루<br>
+                                <input type="checkbox">눈썹<br>
+                                <input type="checkbox">콧수염<br>
+                                <input type="checkbox">턱수염<br>
+                            </td>
+                            <td>
+                                <input type="checkbox">팔 <br>
+                                <input type="checkbox">겨드랑이<br>
+                                <input type="checkbox">다리<br>
+                                <input type="checkbox">배<br>
+                                <input type="checkbox">가슴<br>
+                                <input type="checkbox">기타 : <input type="text" size="8">
+                            </td>
+                            <td>
+                                <input type="checkbox">비키니<br>
+                                <input type="checkbox">브라질리언<br>
+                                <input type="checkbox">항문<br>
+                                <input type="checkbox">사타구니<br>
+                            </td>
+                            <td>
+                                <input type="checkbox">기본케어 <br>
+                                <input type="checkbox">전신케어<br>
+                                <input type="checkbox">전신마사지<br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr id="btNone">
+                <td colspan="3">개인정보 제공 동의서 <br>
+                    라꾸에서 제공하는 서비스예약 확인, 이벤트 등 문자 서비스를 받기 위해 <br>
+                    아래와 같이 개인정보 제공에 동의 합니다.
+                </td>
+            </tr>
+            <tr id="btNone">
+                <td colspan="3" align="center"> <input type="radio" name="select"> 동의함.
+                    <input type="radio" name="select"> 동의하지 않음.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"> ▶ 수집 항목 : 성명, 휴대폰 번호, 생년월일 ▶ 서비스 예약 확인, 이벤트 등 문자서비스 제공
+
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
